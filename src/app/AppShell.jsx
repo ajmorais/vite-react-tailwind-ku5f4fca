@@ -25,7 +25,7 @@ import OcorrenciaModal from '../components/modals/OcorrenciaModal';
 import UserCautelaForm from '../components/reserve/UserCautelaForm';
 import ArmeiroDashboard from '../components/reserve/ArmeiroDashboard';
 
-export default export default function AppShell() {
+export default function AppShell() {
   const [user, setUser] = useState(null);
   const [userData, setUserData] = useState(null); 
   const [viaturas, setViaturas] = useState([]);
